@@ -1,0 +1,36 @@
+.height100px{
+    height: 100px;
+}.height150px{
+    height: 150px;
+}
+
+.height200px{
+    height: 200px;
+}
+
+.height300px{
+    height: 300px;
+}
+
+
+
+.width100px{
+    width: 100px;
+}.width150px{
+    width: 150px;
+}
+
+.width200px{
+    width: 200px;
+}
+
+.width300px{
+    width: 300px;
+}
+
+
+.center-position-absolute{
+    left: 50%;
+    transform: translate(-50%, -43%);
+    -ms-transform: translate(-50%, -43%);
+}
