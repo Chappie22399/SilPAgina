@@ -12,8 +12,8 @@
 
    <div class="container">
 
-    <!-- Menu -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+     <!-- Navbar -->
+     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
           <a class="navbar-brand" href="#"> SENA</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,20 +22,20 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item active">
-                <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="/index.html">Inicio <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Información</a>
+                <a class="nav-link" href="/paginas/info.html">Información</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                  Galería
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="#">Ambientes</a>
-                  <a class="dropdown-item" href="#">Video</a>
+                
+                  <a class="dropdown-item" href="/paginas/video.html">Video</a>
                   <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">Fotos</a>
+                  <a class="dropdown-item" href="/paginas/img.html">Fotos</a>
                 </div>
               </li>
             
@@ -51,15 +51,11 @@
         <h2>Video Yamboro</h2>
         <!-- Agrega el enlace del video de YouTube en el atributo src -->
        
-  
+        <div class="row mt-12">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/U_exqn8Khpk?si=cwX-EaRBROcIDJJD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
   </section>
-    <!-- Imagen que se mueve al hacer clic -->
-    <section class="mt-4">
-        <h2>Imagen que se mueve</h2>
-        <!-- Agrega la ruta de tu imagen en el atributo src -->
-        <img src="/img/fb.png" alt="Imagen" id="movableImage" style="cursor: pointer; width: 150px; height: 150px;">
-    </section>
+   </div>
+
 
       <!-- Footer -->
       <footer class="Logosena bg-dark text-white text-center p-3 mt-4 ">
@@ -77,13 +73,7 @@
 
 
 
-    <!-- Script para mover la imagen al hacer clic -->
-    <script>
-        document.getElementById('movableImage').addEventListener('click', function() {
-            // Cambia la posición de la imagen al lado derecho de la página
-            this.style.float = 'right';
-        });
-    </script>
+
 
 </body>
 </html>
